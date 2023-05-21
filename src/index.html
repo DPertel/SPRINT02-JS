@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div id="head-card">
+        <form class="card">
+            <div class="card-tittle">
+                <h2>Insira as Informações em baixo</h2>
+            </div>
+
+            <div class="card-informattions">
+                <div class="card-informattions-item">
+                    <label for="umi">umidade(em %)</label>
+                    <input type="text" id="umidade" autocomplete="off">
+                </div>
+                
+                <div class="card-informattions-item">
+                    <label for="mono">Nível de monóxido de carbono(em p.p.m)</label>
+                    <input type="text" id="monoxido" autocomplete= "off">
+                </div>
+                
+                <div class="card-informattions-item">
+                    <label for="vol">Volume(em dB)</label>
+                    <input type="text" id="volume" autocomplete="off">
+                </div>
+            </div>
+            <input type="submit" value="Verificar" name="button" id="button" onclick="buttonClick()">
+        </form>
+    </div>
+    <script src="assets/script.js"></script>
+</body>
+</html>
