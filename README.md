@@ -2,19 +2,19 @@
 
 TURMA 1ESR
 
-Deivison Pertel – RM 550803
-Eduardo Akira Murata – RM 98713
-Guilherme Jacob Soares da Costa – RM 84581
-Fabrizio El Ajouri Romano – RM 550410
-Wesley Souza de Oliveira – RM 97874
-=============================================
+- Deivison Pertel – RM 550803
+- Eduardo Akira Murata – RM 98713
+- Guilherme Jacob Soares da Costa – RM 84581
+- Fabrizio El Ajouri Romano – RM 550410
+- Wesley Souza de Oliveira – RM 97874
+---
 
-LifeSustent - Monitoramento Ambiental em Tempo Real
+### LifeSustent - Monitoramento Ambiental em Tempo Real
 Este programa tem como objetivo monitorar a qualidade da umidade, do ar e da sonoridade em cidades inteligentes. Ele fornece mensagens de orientação com base nas leituras inseridas pelo usuário.
 
-=============================================
+---
 
-Execução
+## Execução
 Para executar o programa, siga os passos abaixo:
 
 Abra o arquivo HTML em um navegador.
@@ -24,12 +24,12 @@ O programa fornecerá mensagens relacionadas a cada condição inserida.
 Após cada análise, escolha se deseja realizar outra análise (digite 's') ou sair do programa (digite 'n').
 Observação: Certifique-se de ter o JavaScript habilitado no seu navegador para executar o programa corretamente.
 
-=============================================
+---
 
-Funcionalidades
+## Funcionalidades
 O programa possui as seguintes funcionalidades:
 
-Monitoramento da Umidade do Ar:
+### Monitoramento da Umidade do Ar:
 
 A função transmitir_mensagem_umidade recebe um valor de umidade e retorna uma mensagem relacionada à qualidade da umidade.
 As faixas de umidade são definidas da seguinte forma:
@@ -37,14 +37,16 @@ Umidade > 80: "A umidade está alta. Certifique-se de se manter hidratado."
 50 <= Umidade <= 80: "A umidade está em um nível ideal, segundo a OMS. Aproveite o dia!"
 20 <= Umidade < 50: "A umidade está em um nível de atenção, segundo a OMS."
 Umidade < 20: "A umidade está baixa. É um nível compatível com o do Deserto do Saara, por exemplo. Tenha cuidado com o ressecamento da pele."
-Monitoramento do Monóxido de Carbono:
+
+### Monitoramento do Monóxido de Carbono:
 
 A função transmitir_mensagem_monoxido recebe um valor de monóxido de carbono e retorna uma mensagem relacionada à qualidade do ar.
 As faixas de monóxido de carbono são definidas da seguinte forma:
 Monóxido >= 50: "Há níveis perigosos de monóxido de carbono no ar. Evite a exposição prolongada."
 30 <= Monóxido < 50: "Há uma quantidade moderada de monóxido de carbono no ar. Mantenha-se atento."
 Monóxido < 30: "A quantidade de monóxido de carbono está dentro dos níveis seguros."
-Monitoramento do Volume:
+
+### Monitoramento do Volume:
 
 A função transmitir_mensagem_volume recebe um valor de volume e retorna uma mensagem relacionada à sonoridade.
 As faixas de volume são definidas da seguinte forma:
